@@ -6,15 +6,16 @@ import html
 UrlInput = input('Enter URL')
 
 webbrowser.open (UrlInput)
-UrlInput_2= setattr.__self_(webbrowser)
+UrlInput_2= ("www.espn.com")
 
 
-#interact with website
-if UrlInput = UrlInput_2:print('Succesfully opened browser')
-else print('Unsucessfully opened brower')
-End If
+#Check input from user 
+if UrlInput == UrlInput_2:
+    print('This is ESPN browser Hurray!')
+if UrlInput != UrlInput_2:
+    print('This is not ESPN browser')
 
-
+#Scrap websites 
 
 #Closing webbrowser
-os.system ("taskkill /im iexplore.exe /f")
+
