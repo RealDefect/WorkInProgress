@@ -1,7 +1,5 @@
 import webbrowser
 import os
-import html
-
 #Launch website and input url 
 UrlInput = input('Enter URL')
 
@@ -15,7 +13,5 @@ if UrlInput == UrlInput_2:
 if UrlInput != UrlInput_2:
     print('This is not ESPN browser')
 
-#Scrap websites 
-
+#Scrap websites (need to research library to import BeautifulSoup or Lxml)
 #Closing webbrowser
-
